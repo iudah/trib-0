@@ -1,0 +1,20 @@
+{
+  "name": "trib-0",
+  "version": "1.0.0",
+  "description": "A sample questionnaire webapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sample-webapp",
+    "trib-0",
+    "questionnaire"
+  ],
+  "author": "iudah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
