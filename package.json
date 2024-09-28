@@ -1,24 +1,23 @@
 {
   "name": "trib-0",
-  "version": "1.0.0",
-  "description": "A sample questionnaire webapp",
-  "main": "server.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "lint": "eslint ./",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "lint": "eslint ./bin/www",
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "servstart": "DEBUG=trib-0:* & npm run devstart"
   },
-  "keywords": [
-    "sample-webapp",
-    "trib-0",
-    "questionnaire"
-  ],
-  "author": "iudah",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.21.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.21.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.3"
   },
   "devDependencies": {
-    "eslint": "^9.11.1"
+    "eslint": "^9.11.1",
+    "nodemon": "^3.1.7"
   }
 }
