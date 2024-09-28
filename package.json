@@ -4,6 +4,7 @@
   "description": "A sample questionnaire webapp",
   "main": "server.js",
   "scripts": {
+    "lint": "eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -16,5 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1"
   }
 }
